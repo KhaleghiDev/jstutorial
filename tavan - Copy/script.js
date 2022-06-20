@@ -3,10 +3,10 @@
  */
 
 let userNumberAge =Number( prompt("سن مورد نظر را وارد کنید "))
-let userNumberGender =Boolean( prompt("1مرد جنسیت مورد نظر را وارد کنید "))
+let userNumberGender = prompt(")(male,female) جنسیت مورد نظر را وارد کنید ")
 console.log(userNumberGender)
-if (userNumberAge>18 || userNumberGender===true) {
-    alert("ورود به پنل ")
-}else{
+if (userNumberAge<18 || userNumberGender==="female") {
     alert("شما مجوز لازم ندارید ")
+}else{
+    alert("ورود به پنل ")
 }
